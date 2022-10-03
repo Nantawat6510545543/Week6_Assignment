@@ -1,0 +1,15 @@
+Bangkok,0,0
+Sam Sen,800,600
+Bang Sue Junction,800,600
+Bang Bamru,820,610
+Sala Ya,830,620
+Nakhon Pathom,860,630
+Ratchaburi,900,650
+Phetchaburi,950,680
+Hua Hin,1000,700
+Bang Saphan Yai,1100,780
+Chumphon,1200,800
+Surat Thani,1300,900
+Thung Song Junction,1400,950
+Phattalung,1500,980
+Hat Yai Junction,1600,1000

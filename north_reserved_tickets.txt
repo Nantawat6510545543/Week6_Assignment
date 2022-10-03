@@ -1,0 +1,15 @@
+1A,Bangkok,Don Mueng
+1B,Bangkok,Ayutthaya
+1C,Bangkok,Phitsanulok
+1C,Nakhon Lampang,Chiang Mai
+1D,Bangkok,Chiang Mai
+2A,Don Mueng,Lop Buri
+2B,Nakhon Sawan,Lam Phun
+2C,Bang Khen,Ayutthaya
+2C,Phitsanulok,Den Chai
+3A,Bang Sue Junction,Chiang Mai
+3B,Lop Buri,Chiang Mai
+3C,Lam Phun,Chiang Mai
+3D,Bangkok,Rangsit
+3D,Ayutthaya,Chiang Mai
+

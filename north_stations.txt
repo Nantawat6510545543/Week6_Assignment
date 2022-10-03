@@ -1,0 +1,17 @@
+Bangkok,0,0,0
+Sam Sen,800,600,400
+Bang Sue Junction,800,600,400
+Bang Khen,810,610,410
+Lak Si,820,620,420
+Don Mueng,820,620,420
+Rangsit,830,630,430
+Ayutthaya,860,640,440
+Lop Buri,920,670,470
+Nakhon Sawan,1000,700,500
+Phitsanulok,1100,780,580
+Sila At,1200,820,620
+Den Chai,1250,860,660
+Nakhon Lampang,1350,900,700
+Khun Tan,1400,920,720
+Lam Phun,1430,930,730
+Chiang Mai,1450,940,740

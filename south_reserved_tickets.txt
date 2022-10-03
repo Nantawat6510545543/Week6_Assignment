@@ -1,0 +1,15 @@
+1A,Bangkok,Nakhon Pathom
+1A,Ratchaburi,Hua Hin
+1B,Bangkok,Hua Hin
+1C,Bangkok,Surat Thani
+1D,Bangkok,Hat Yai Junction
+2A,Bang Sue Junction,Phetchaburi
+2B,Sala Ya,Ratchaburi
+2B,Bang Saphan Yai,Thung Song Junction
+2C,Sam Sen,Nakhon Pathom
+2C,Hua Hin,Hat Yai Junction
+2D,Ratchaburi,Hat Yai Junction
+2E,Phattalung,Hat Yai Junction
+2F,Bangkok,Phetchaburi
+2F,Hua Hin,Hat Yai Junction
+

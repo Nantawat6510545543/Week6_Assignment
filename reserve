@@ -1,0 +1,45 @@
+def reserve(train_seats, train_seat_classes, station_indexes, station_fees):
+    """ Function reserve does the followings:
+        1. read origin and destination station indexes from user
+        2. find available seats between origin and destination station indexes
+        3. if there are available seats,
+            3.1 show ticket prices from all seat classes
+            3.2 let user choose one of available seat
+            3.3 report price of the chosen seat
+            3.4 update ticket list of the chosen seat
+        4. if there is no available seat, report to user
+
+        :param train_seats: dictionary of seats
+        :param train_seat_classes: list of seat classes
+        :param station_indexes: dictionary of station indexes
+        :param station_fees: dictionary of ticket fees
+        :return: nothing
+    """
+    origin_index = read_origin()
+    dest_index = read_dest(origin_index)
+
+    origin = get_station_name(station_indexes, origin_index)
+    dest = get_station_name(station_indexes, dest_index)
+
+    # print(origin)
+    # print(dest)
+
+    # reserved_routes = [check_reserved_routes(station_indexes, train_seats[i])
+    #                    for i in train_seats.keys()]
+    # print(reserved_routes)
+    #
+    # available = [is_ticket_available(
+    #     [check_reserved_routes(station_indexes, train_seats[i]) for i in
+    #      train_seats.keys()][j], origin_index, dest_index) for j in range(14)]
+    # print(available)
+
+    available = [i for i in train_seats.keys() if is_ticket_available(
+        check_reserved_routes(station_indexes, train_seats[i]), origin_index,
+        dest_index) == True]
+    print(f"Available seats: {available}")
+
+    print(f"Class 1 Ticket price = ")
+    print(f"Class 2 Ticket price = ")
+
+    get_ticket_price(station_indexes, station_fees, origin_index, dest_index,
+                     seat_class)
