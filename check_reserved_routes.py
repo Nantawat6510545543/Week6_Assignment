@@ -31,3 +31,4 @@ def check_reserved_routes(station_indexes, ticket_list):
             reserved[i] = int((i in range(origin, dest+1)) or reserved[i])
 
     return reserved
+# some
